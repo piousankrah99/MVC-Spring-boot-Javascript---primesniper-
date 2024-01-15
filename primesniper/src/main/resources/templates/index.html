@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link th:href="@{/css/styles.css}" rel="stylesheet" type="text/css">
+  <script th:src="@{/js/index.js}" charset="utf-8"></script>
+
+<!--  <script th:src="@{https://code.jquery.com/jquery-3.7.1.slim.js}" integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>-->
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+</head>
+<body>
+<div class="main">
+
+  <nav class="navBar">
+    <ul class="leftNav">
+      <li>Home</li>
+      <li class="logo"></li>
+    </ul>
+    <ul class="rightNav">
+      <li>Sign Up</li>
+      <li>Log In</li>
+    </ul>
+  </nav>
+<div class="row">
+  <div class="sideBar">
+    <button class="toggleButton" onclick="toggleSidebar()">☰</button>
+    <div class="sideBarText">
+    <li class="list" >Home</li>
+    <li class="list">Projects</li>
+    <li class="list">About Me</li>
+  </div>
+  </div>
+  <div class="mainCards">
+    
+  </div>
+</div>
+</div>
+
+</body>
+</html>
